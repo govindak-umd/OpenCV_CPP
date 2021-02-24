@@ -6,4 +6,5 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 ## Versions used
 
 | OpenCV | 4.5.0 |
-| Microsoft Visual Studio| 2019 |
+| :---: | :---: |
+| Microsoft Visual Studio | 2019 |
