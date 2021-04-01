@@ -6,8 +6,8 @@
 int main() {
 
 	cv::Mat img = cv::imread("amg.jpg", cv::IMREAD_COLOR);
-    cv::namedWindow("Display window", cv::WINDOW_AUTOSIZE);
-    cv::imshow("Display window", img);
-    cv::waitKey(0);
+	cv::namedWindow("Display window", cv::WINDOW_AUTOSIZE);
+	cv::imshow("Display window", img);
+	cv::waitKey(0);
 
 }
