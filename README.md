@@ -8,3 +8,11 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 | OpenCV | 4.5.0 |
 | :---: | :---: |
 | Microsoft Visual Studio | 2019 |
+
+# Code Lookup Table
+| S. No | File Name | What it does | References |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 | *find_contours.cpp* | To find contours in an image  ||
+| 2 | *image_filter.cpp* | To blur an image contours in an image  ||
+| 3 | *draw_circle.cpp* | To draw circles and other shapes on a blank image  ||
+| 4 | *threshold_trackbar.cpp* | To threshold a live video with trackbars ||
