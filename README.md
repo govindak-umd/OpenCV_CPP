@@ -16,4 +16,5 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 | 2 | *image_filter.cpp* | To blur an image contours in an image  ||
 | 3 | *draw_circle.cpp* | To draw circles and other shapes on a blank image  ||
 | 4 | *threshold_trackbar.cpp* | To threshold a live video with trackbars ||
-| 5 | *draw_largest_contour.cpp* | To identofuy the largest contour and draw a bounding box around it ||
+| 5 | *draw_largest_contour.cpp* | To identify the largest contour and draw a bounding box around it ||
+| 6 | *convex_hull.cpp* | To draw a convex hull around a contour ||
