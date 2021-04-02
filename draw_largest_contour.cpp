@@ -8,11 +8,11 @@ int main() {
 
 	cv::Mat img;
 
-	img = cv::imread("amg.jpg", cv::IMREAD_COLOR);
+	img = cv::imread("shapes.png", cv::IMREAD_COLOR);
 
 	cv::Mat gray_img;
 
-	gray_img = cv::imread("amg.jpg", cv::IMREAD_GRAYSCALE);
+	gray_img = cv::imread("shapes.png", cv::IMREAD_GRAYSCALE);
 
 	// To draw the contours on
 
@@ -35,7 +35,7 @@ int main() {
 	double largest_area = 0;
 	double curr_area = 0;
 	int largest_contour_idx = 0;
-	cv::Rect largeest_boudning_rectangle;
+	cv::Rect largest_bounding_rectangle;
 
 	for (int i = 0; i < contours.size(); i++) {
 		
@@ -44,19 +44,21 @@ int main() {
 		if (curr_area > largest_area) {
 			largest_area = curr_area;
 			std::cout << "Largest area has been changed to : " << largest_area << std::endl;
-			largeest_boudning_rectangle = cv::boundingRect(contours[i]);
+			largest_bounding_rectangle = cv::boundingRect(contours[i]);
 		}
 
 		// Draw all the contours on the drawing image
 
 		cv::drawContours(drawing, contours, i, cv::Scalar(0, 0, 255), cv::FILLED, 8, hierarchy, 0, cv::Point());
-		
-		// Draw the biggest contour bounding rectangle
 
-		cv::rectangle()
+
 	}
 
-	cv::imshow("Result of the contour", drawing);
+	// Draw the biggest contour bounding rectangle
+
+	cv::rectangle(rect_drawing, largest_bounding_rectangle, cv::Scalar(0, 25, 65), 1, 8, 0);
+	cv::imshow("Result of Contour", drawing);
+	cv::imshow("Bounding rectangle", rect_drawing);
 	cv::waitKey(0);
 	return 0;
 
