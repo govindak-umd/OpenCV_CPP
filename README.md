@@ -9,6 +9,8 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 | :---: | :---: |
 | Microsoft Visual Studio | 2019 |
 
+Find practice questions [here](https://docs.opencv.org/3.4/d7/da8/tutorial_table_of_content_imgproc.html)
+
 # Code Lookup Table
 | S. No | File Name | What it does | References |
 | ------------- | ------------- | ------------- | ------------- |
