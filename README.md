@@ -9,8 +9,6 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 | :---: | :---: |
 | Microsoft Visual Studio | 2019 |
 
-Find practice questions [here](https://docs.opencv.org/3.4/d7/da8/tutorial_table_of_content_imgproc.html)
-
 # Code Lookup Table
 | S. No | File Name | What it does | References |
 | ------------- | ------------- | ------------- | ------------- |
@@ -20,3 +18,7 @@ Find practice questions [here](https://docs.opencv.org/3.4/d7/da8/tutorial_table
 | 4 | *threshold_trackbar.cpp* | To threshold a live video with trackbars ||
 | 5 | *draw_largest_contour.cpp* | To identify the largest contour and draw a bounding box around it ||
 | 6 | *convex_hull.cpp* | To draw a convex hull around a contour ||
+
+## References
+
+Find practice questions [here](https://docs.opencv.org/3.4/d7/da8/tutorial_table_of_content_imgproc.html) .
