@@ -10,7 +10,7 @@ Follow [this](https://www.youtube.com/watch?v=M-VHaLHC4XI) video on how to downl
 | Microsoft Visual Studio | 2019 |
 
 # Code Lookup Table
-| S. No | File Name | What it does | References |
+| S. No | File Name | Code description | References |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | *find_contours.cpp* | To find contours in an image  ||
 | 2 | *image_filter.cpp* | To blur an image contours in an image  ||
